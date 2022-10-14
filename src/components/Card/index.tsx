@@ -2,6 +2,7 @@ import { Button } from "../Button";
 import { Container, ClassInfo, ClassItem } from "./styles";
 
 import { AiOutlinePlayCircle } from "react-icons/ai"
+import { Link } from "react-router-dom";
 
 
 
@@ -35,10 +36,11 @@ export function Card() {
           </ClassItem>
 
         </div>
-        
-        <Button icon={<AiOutlinePlayCircle size={20} />}
-          title="Ir à aula">
-        </Button>
+        <Link to='aula'>
+          <Button icon={<AiOutlinePlayCircle size={20} />}
+            title="Ir à aula">
+          </Button>
+        </Link>
       </ClassInfo>
 
     </Container>

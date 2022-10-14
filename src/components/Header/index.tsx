@@ -12,11 +12,11 @@ export function Header() {
         <SearchBar />
         <nav>
           <ul>
-            <a href="#"><li>Home</li></a>
-            <a href="#"><li>Contato</li></a>
+            <Link to='/'><li>Home</li></Link>
+            <Link to='/'><li>Contato</li></Link>
           </ul>
         </nav>
-        
+
         <Link to='login'>
           <GiExitDoor size={24} />
         </Link>
