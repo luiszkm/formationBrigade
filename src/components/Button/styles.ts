@@ -9,5 +9,7 @@ export const Container = styled.button`
   min-width: fit-content;
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 8px;
+  width: 100%;
 `

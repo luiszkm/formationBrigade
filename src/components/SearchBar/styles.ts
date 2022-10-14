@@ -10,8 +10,8 @@ export const Container = styled.label`
   align-items: center;
   padding: 0 1.6rem;
   gap: 8px;
-  :visited{
-    background: '#000000'
+  :focus-within{
+    border: 1px solid ${({theme})=>theme.COLORS.DARK_RED};
   }
   >input{
     background: transparent;
