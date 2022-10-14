@@ -1,7 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import { SingIn } from './pages/SingIn'
-import { Home } from './pages/Home'
+import { Routes } from './routes'
 
 
 import { ThemeProvider } from 'styled-components'
@@ -12,7 +11,7 @@ ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
     <ThemeProvider theme={theme} >
       <GlobalStyle />
-      <Home />
+      <Routes />
     </ThemeProvider>
   </React.StrictMode>
 )

@@ -10,3 +10,9 @@ background: ${({theme})=> theme.COLORS.GRAY_400};
 
 
 `
+
+export const SectionGrid = styled.section`
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+
+`
