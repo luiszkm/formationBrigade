@@ -1,6 +1,7 @@
 export default {
   COLORS: {
     GRAY_900: "#1E1E1E",
+    GRAY_400: "#D9D9D9",
 
 
 

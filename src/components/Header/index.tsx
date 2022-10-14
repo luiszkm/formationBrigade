@@ -1,3 +1,4 @@
+import { SearchBar } from "../SearchBar";
 import { Container } from "./styles";
 
 export function Header (){
@@ -7,7 +8,7 @@ export function Header (){
     <Container>
       <header>
         <h2>logo</h2>
-
+      <SearchBar />
         <nav>
           <ul>
             <a href="#"><li>Home</li></a>
