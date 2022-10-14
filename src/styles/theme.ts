@@ -22,6 +22,7 @@ export default {
 
     BLACK_300: "#312E38",
 
-    DARK_RED: "#92000E"
+    DARK_RED: "#92000E",
+    RED_600: "#CC0000",
   }
 }
