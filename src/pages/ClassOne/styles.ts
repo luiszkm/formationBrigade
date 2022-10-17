@@ -8,10 +8,11 @@ export const Container = styled.div`
   align-items: center;
   justify-content: space-between;
 
-  >section{
+  >main{
     display: flex;
     min-height: 80vh;
     width: 100%;
     max-width: 1136px;
+    padding: 2.4rem 1.2rem;
   }
 `

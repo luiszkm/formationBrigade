@@ -2,6 +2,10 @@ import { SearchBar } from "../SearchBar";
 import { Container } from "./styles";
 import { GiExitDoor } from "react-icons/gi"
 import { Link } from "react-router-dom";
+
+
+
+
 export function Header() {
 
 
