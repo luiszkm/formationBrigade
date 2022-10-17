@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
-import { Class1Fire } from "../../class/class1-Fire";
-import { Class1Intro } from "../../class/class1-Intro";
+import { Class1Fire } from "../../class/class1-02Fire";
+import { Class1Intro } from "../../class/class1-01Intro";
 import { Cover } from "../../components/Cover";
 import { Footer } from "../../components/Footer";
 import { Header } from "../../components/Header";

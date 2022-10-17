@@ -10,9 +10,12 @@ export const Container = styled.div`
 
   >main{
     display: flex;
+    align-items: center;
+    justify-content: center;
     min-height: 80vh;
     width: 100%;
-    max-width: 1136px;
-    padding: 2.4rem 1.2rem;
+    //max-width: 1136px;
+   
+    background: ${({theme})=> theme.COLORS.GRAY_400};
   }
 `

@@ -5,7 +5,22 @@ export const Container = styled.div`
   flex-direction: column;
   gap:  1.6rem;
   width: 100%;
-  max-width: 50rem;
+  max-width: 70rem;
+  >div{
+    display: flex;
+  flex-direction: column;
+  gap:  1.6rem;
+  width: 100%;
+  max-width: 70rem;
+  }
+  @media (min-width: 900px) {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 
-
+  }
+  >img{
+    width: 100%;
+    max-width: 300px;
+  }
 `
