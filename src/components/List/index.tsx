@@ -4,14 +4,15 @@ import { Container } from "./styles";
 
 interface ListProps{
   children: ReactNode;
-  img?: any
+  img?: any;
+  className?: string;
 }
 
 export function List (props: ListProps){
 
 
   return(
-    <Container>
+    <Container className={props.className}>
       <ul>
      {props.children}
       </ul>

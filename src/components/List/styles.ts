@@ -20,4 +20,16 @@ export const Container = styled.div`
     width: 100%;
     max-width: 300px;
   }
+
+  &&.list2{
+    >ul{
+    max-width: 500px;
+  }
+   @media (min-width: 768px) {
+    flex-direction: row-reverse;
+
+  }
+
+
+  }
 `

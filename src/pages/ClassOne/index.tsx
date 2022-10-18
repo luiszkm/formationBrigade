@@ -1,7 +1,11 @@
 import { Link } from "react-router-dom";
-import { Class1Fire } from "../../class/class1-02Fire";
+
 import { Class1Intro } from "../../class/class1-01Intro";
+import { Class1Fire } from "../../class/class1-02Fire";
+import {Class1Extintor} from "../../class/class1-03Extintor"
 import { Cover } from "../../components/Cover";
+
+
 import { Footer } from "../../components/Footer";
 import { Header } from "../../components/Header";
 import { Section } from "../../components/Section";
@@ -20,6 +24,7 @@ export function ClassOne() {
         <Section title="Programa de brigada de incêndio">
          <Class1Intro />
          <Class1Fire />
+         <Class1Extintor />
         </Section>
 
 

@@ -4,7 +4,7 @@ import { Container } from "./styles";
 interface SectionItemProps {
   title: string;
   paragraph: string;
-  img?: any
+  img?: any;
   withH4?:boolean 
 }
 
