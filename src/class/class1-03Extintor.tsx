@@ -20,12 +20,14 @@ import classificacao from "../assets/img01/classificacao.png"
 import transporte1 from "../assets/img01/transporte1.png"
 import transporte2 from "../assets/img01/transporte2.png"
 import transporte3 from "../assets/img01/transporte3.png"
+import { Section } from "../components/Section";
 
 export function Class1Extintor() {
 
   return (
     <>
-      <h3>MÉTODOS DE EXTINÇÃO DE INCÊNDIOS<FaFireExtinguisher size={24} /></h3>
+    <Section title="MÉTODOS DE EXTINÇÃO DE INCÊNDIOS">
+      <FaFireExtinguisher size={24} />
       <h4>Rescaldo</h4>
       <SectionItem title=""
         paragraph="▪É a operação final de um serviço de extinção de incêndio. 
@@ -160,9 +162,67 @@ export function Class1Extintor() {
         <img src={transporte3} alt="" />
       </MiniGallery>
 
+      <h4>Cuidados</h4>
+      <List>
+        <li><strong>Inspeções:</strong>Mensalmente</li>
+        <li><strong>Manutenção:</strong>Sempre que verificar anomalias nas Inspeções ou quando terminar o prazo da garantia</li>
+        <li><strong>Recarga:</strong>Anualmente ou
+          quando utilizado
+        </li>
+        <li><strong>Teste hidrostático:</strong>A cada cinco anos</li>
+      </List>
 
+      <h3>Teste Hidrostático</h3>
+      <SectionItem
+        title="Periodização:"
+        paragraph="A cada 5 anos;
+        Ao constatar fadiga no material;
+        Ou se o aparelho sofrer avaria mecânica."/>
 
+      <SectionItem withH4
+        title="Aparelhos de baixa pressão "
+        paragraph="Pressão interior = 2 x pressão de trabalho; Data do teste: 
+        gravar na base do cilindro; Efetuar as anotações na etiqueta de inspeção."/>
 
+      <SectionItem withH4
+        title="Aparelhos de alta pressão "
+        paragraph="Pressão interior = 1.1/2 x pressão de trabalho; Data do teste: 
+        gravar no corpo do cilindro; Efetuar as anotações na etiqueta de inspeção."/>
+
+        <h3>Localização do Extintor</h3>
+        <List>
+          <li>Fácil visibilidade</li>
+          <li>Fácil acesso</li>
+          <li>Altura de fixação Máxima: 180 cm; Não podendo ficar sobre o solo</li>
+          <li><strong>Nota:</strong> Em proteção contra-incêndio o mais importante é a segurança,	não a	beleza do local.</li>
+        </List>
+        <h3>Níveis de manutenção</h3>
+          <h4>Nível 1</h4>
+          <List>
+            <li>&rarr;	Limpeza de componentes</li>
+            <li>&rarr;	Reaperto de componentes</li>
+            <li>&rarr;	Colocação do quadro de instruções</li>
+            <li>&rarr;	Substituição de componentes que não estejam submetidos a pressão</li>
+          </List>
+
+          <h4>Nível 2</h4>
+          <List>
+          <li>&rarr; Desmontagem do equipamento</li>
+          <li>&rarr; Verificação de carga</li>
+          <li>&rarr; Limpeza de todos componentes</li>
+          <li>&rarr; Verificação das partes internas</li>
+          <li>&rarr; Regulagem, verificação e fixação dos componentes rosqueados</li>
+          <li>&rarr; Colocação de lacre e pintura</li>
+          <li></li>
+          </List>
+
+          <h4>Nível 3</h4>
+          <List>
+            <li>&rarr;	Teste	  hidrostático</li>
+            <li>&rarr;	Revisão geral</li>
+          </List>
+
+          </Section>
     </>
   )
 }

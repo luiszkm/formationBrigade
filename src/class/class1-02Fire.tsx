@@ -10,14 +10,15 @@ import classeA from "../assets/img01/classeA.png"
 import classeB from "../assets/img01/classeB.png"
 import classeC from "../assets/img01/classeC.png"
 import classeD from "../assets/img01/classeD.png"
+import { Section } from "../components/Section";
 
 
 
 export function Class1Fire() {
 
   return (
-    <>
-      <h3>Introdução ao comportamento do fogo <AiTwotoneFire size={24} /></h3>
+    <Section title="Introdução ao comportamento do fogo ">
+     <AiTwotoneFire size={24} />
       <List>
         <li>▪Fogo e Incêndio</li>
         <li>▪Elementos essenciais ao fogo</li>
@@ -153,6 +154,6 @@ export function Class1Fire() {
         title="Quebra da reação:"
         paragraph="Consiste em interromper a reação química através de agentes químicos especiais."
       />
-    </>
+    </Section>
   )
 }

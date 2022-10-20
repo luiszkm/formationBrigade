@@ -1,10 +1,11 @@
+import { Section } from "../components/Section";
 import { SectionItem } from "../components/SectionItem";
 
 
 export function Class1Intro(){
 
   return(
-    <>
+    <Section title="NBR 14276">
     <SectionItem
       title="3.4 Brigada de incêndio: "
       paragraph="Grupo organizado de pessoas voluntárias ou não, 
@@ -111,6 +112,6 @@ export function Class1Intro(){
 
 
 
-  </>
+  </Section>
   )
 }

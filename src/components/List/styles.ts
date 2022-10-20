@@ -17,6 +17,7 @@ export const Container = styled.div`
     flex-direction: column;
     align-items: flex-start;
     gap: 1.2rem;
+    max-width: 400px;
   }
   >img{
     width: 100%;
@@ -24,8 +25,10 @@ export const Container = styled.div`
   }
 
   &&.list2{
+    justify-content: start;
     >ul{
-    max-width: 500px;
+    max-width: 400px;
+
   }
    @media (min-width: 768px) {
     flex-direction: row-reverse;
