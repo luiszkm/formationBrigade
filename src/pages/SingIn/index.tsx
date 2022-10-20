@@ -1,4 +1,4 @@
-import { Input } from "../../components/Input";
+import {Input} from "../../components/Input"
 import { AiOutlineMail, AiOutlineUnlock } from "react-icons/ai"
 import { Button } from "../../components/Button";
 
