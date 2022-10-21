@@ -1,6 +1,4 @@
-import {Input} from "../../components/Input"
 import { Button } from "../../components/Button";
-
 import { AiOutlineMail, AiOutlineUnlock } from "react-icons/ai"
 import { Container, FormLogin } from "./styles";
 import { Link } from "react-router-dom";
