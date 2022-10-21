@@ -23,7 +23,8 @@ export function SingIn() {
             <Input id="email"
               type="email"
               placeholder="brigada@exemplo.com"
-              icon={<AiOutlineMail />} />
+              //icon={<AiOutlineMail />} 
+              />
           </label>
 
           <label htmlFor="password">
@@ -31,7 +32,8 @@ export function SingIn() {
             <Input id="password"
               type="email"
               placeholder="mínimo 6 carácter"
-              icon={<AiOutlineUnlock />} />
+              //icon={<AiOutlineUnlock />}
+               />
           </label>
           
           <Link to='/'>
