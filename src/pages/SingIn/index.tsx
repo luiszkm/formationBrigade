@@ -17,7 +17,7 @@ export function SingIn() {
           <h2>Formação Brigada</h2>
           <span>faça login e  comece a usar!</span>
         </div>
-        <FormLogin >
+        {/*<FormLogin >
           <label htmlFor="email">
             Digite seu e-mail
             <Input id="email"
@@ -39,7 +39,7 @@ export function SingIn() {
           </Link>
 
         </FormLogin>
-
+  */}
       </section>
     </Container>
   )
