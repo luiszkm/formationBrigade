@@ -1,7 +1,7 @@
-import {Input} from "../../components/Input"
-import { AiOutlineMail, AiOutlineUnlock } from "react-icons/ai"
+import {Input} from "../../components/Input/index"
 import { Button } from "../../components/Button";
 
+import { AiOutlineMail, AiOutlineUnlock } from "react-icons/ai"
 import { Container, FormLogin } from "./styles";
 import { Link } from "react-router-dom";
 
@@ -23,8 +23,7 @@ export function SingIn() {
             <Input id="email"
               type="email"
               placeholder="brigada@exemplo.com"
-              //icon={<AiOutlineMail />} 
-              />
+              icon={<AiOutlineMail />} />
           </label>
 
           <label htmlFor="password">
@@ -32,8 +31,7 @@ export function SingIn() {
             <Input id="password"
               type="email"
               placeholder="mínimo 6 carácter"
-              //icon={<AiOutlineUnlock />}
-               />
+              icon={<AiOutlineUnlock />} />
           </label>
           
           <Link to='/'>
