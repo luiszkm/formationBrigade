@@ -5,9 +5,18 @@ import { AiOutlinePlayCircle } from "react-icons/ai"
 import { Link } from "react-router-dom";
 
 
+interface CardProps {
+  content:{
+    title: string,
+    link: string,
+    description: string,
+    duration: string,
+    level: string,
 
+  }
+}
 
-export function Card() {
+export function Card(props: CardProps) {
 
   return (
     <Container>
@@ -16,8 +25,8 @@ export function Card() {
         <div>
           <img src="http://www.delaplastic.com.br/wp-content/uploads/2018/03/Brig-emerg.png" alt="" />
           <div>
-            <h2>Class title</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, obcaecati. Quasi accusamus animi natus fuga nostrum, veniam itaque saepe deserunt ipsam voluptates non ipsa placeat, eaque molestias? Maiores, laborum ipsam!</p>
+            <h2>{props.content.title}</h2>
+            <p>{props.content.description}</p>
           </div>
         </div>
 
@@ -27,16 +36,16 @@ export function Card() {
         <div>
           <ClassItem>
             <strong>Duração</strong>
-            <span>6h</span>
+            <span>{props.content.duration}</span>
           </ClassItem>
 
           <ClassItem>
             <strong>Nível</strong>
-            <span>Iniciante</span>
+            <span>{props.content.level}</span>
           </ClassItem>
 
         </div>
-        <Link to='aula'>
+        <Link to={props.content.link}>
           <Button icon={<AiOutlinePlayCircle size={20} />}
             title="Ir à aula">
           </Button>

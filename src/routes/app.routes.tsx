@@ -3,6 +3,7 @@ import {Routes, Route} from "react-router-dom";
 import { Home } from "../pages/Home";
 import { SingIn } from "../pages/SingIn";
 import{ ClassOne} from "../pages/ClassOne"
+import{ ClassTwo} from "../pages/ClassTwo"
 
 
 export function AppRoutes (){
@@ -11,6 +12,7 @@ export function AppRoutes (){
       <Route path="/" element ={<Home/>}/>
       <Route path="/login" element ={<SingIn/>}/>
       <Route path="/aula" element ={<ClassOne/>}/>
+      <Route path="/APH" element ={<ClassTwo/>}/>
     </Routes>
   )
 }

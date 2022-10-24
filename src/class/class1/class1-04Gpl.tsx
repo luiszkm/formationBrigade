@@ -1,19 +1,19 @@
-import { List } from "../components/List";
-import { Section } from "../components/Section";
-import { SectionItem } from "../components/SectionItem";
+import { List } from "../../components/List";
+import { Section } from "../../components/Section";
+import { SectionItem } from "../../components/SectionItem";
 
-import glp1 from "../assets/img01/glp1.png"
-import glp2 from "../assets/img01/glp2.png"
-import glp3 from "../assets/img01/glp3.png"
-import glp4 from "../assets/img01/glp4.png"
-import glp5 from "../assets/img01/glp5.png"
+import glp1 from "../../assets/img01/glp1.png"
+import glp2 from "../../assets/img01/glp2.png"
+import glp3 from "../../assets/img01/glp3.png"
+import glp4 from "../../assets/img01/glp4.png"
+import glp5 from "../../assets/img01/glp5.png"
 
-import epi1 from "../assets/img01/epi1.png"
-import epi2 from "../assets/img01/epi2.png"
-import epi3 from "../assets/img01/epi3.png"
-import epi4 from "../assets/img01/epi4.png"
+import epi1 from "../../assets/img01/epi1.png"
+import epi2 from "../../assets/img01/epi2.png"
+import epi3 from "../../assets/img01/epi3.png"
+import epi4 from "../../assets/img01/epi4.png"
 
-import { MiniGallery } from "../components/MiniGallery";
+import { MiniGallery } from "../../components/MiniGallery";
 
 export function Class1Glp() {
 

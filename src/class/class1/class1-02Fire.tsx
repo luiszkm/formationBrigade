@@ -1,16 +1,16 @@
-import { List } from "../components/List";
-import { SectionItem } from "../components/SectionItem";
+import { List } from "../../components/List";
+import { SectionItem } from "../../components/SectionItem";
 import { AiTwotoneFire } from "react-icons/ai"
 
-import trianguloFogo from "../assets/img01/trianguloFogo.png"
-import conducaoCalor from "../assets/img01/conducaoCalor.webp"
-import conveccao from "../assets/img01/conveccao.png"
-import radiacao from "../assets/img01/radiacao.png"
-import classeA from "../assets/img01/classeA.png"
-import classeB from "../assets/img01/classeB.png"
-import classeC from "../assets/img01/classeC.png"
-import classeD from "../assets/img01/classeD.png"
-import { Section } from "../components/Section";
+import trianguloFogo from "../../assets/img01/trianguloFogo.png"
+import conducaoCalor from "../../assets/img01/conducaoCalor.webp"
+import conveccao from "../../assets/img01/conveccao.png"
+import radiacao from "../../assets/img01/radiacao.png"
+import classeA from "../../assets/img01/classeA.png"
+import classeB from "../../assets/img01/classeB.png"
+import classeC from "../../assets/img01/classeC.png"
+import classeD from "../../assets/img01/classeD.png"
+import { Section } from "../../components/Section";
 
 
 
@@ -18,7 +18,7 @@ export function Class1Fire() {
 
   return (
     <Section title="Introdução ao comportamento do fogo ">
-     <AiTwotoneFire size={24} />
+      <AiTwotoneFire size={24} />
       <List>
         <li>▪Fogo e Incêndio</li>
         <li>▪Elementos essenciais ao fogo</li>
@@ -136,21 +136,21 @@ export function Class1Fire() {
       ▪ Abafamento
       ▪ Retirada de material
       ▪ Extinção Química
-      
-      <SectionItem 
+
+      <SectionItem
         title="Resfriamento:"
         paragraph="Consiste	na	retirada	de	calor do combustível incendiado.
         O melhor agente de absorção do calor é a água."
       />
-      <SectionItem 
+      <SectionItem
         title="Abafamento:"
         paragraph="Consiste na extinção de um incêndio pela diminuição do oxigênio."
       />
-      <SectionItem 
+      <SectionItem
         title="Retirada de Material:"
         paragraph="Consiste	na	diminuição	do	campo	de propagação do	incêndio."
       />
-      <SectionItem 
+      <SectionItem
         title="Quebra da reação:"
         paragraph="Consiste em interromper a reação química através de agentes químicos especiais."
       />
