@@ -17,12 +17,15 @@ export const Container = styled.div`
     display: flex;
     align-items: flex-start;
     justify-content: center;
+    flex-direction: column;
     gap: 1.6rem;
     min-height: 80vh;
     width: 100%;
     max-width: 1136px;
     position: relative;
-   
+   @media (min-width: 900px) {
+    flex-direction: row;
+   }
     >section{
       //width: initial;
     }

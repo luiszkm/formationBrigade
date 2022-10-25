@@ -1,7 +1,7 @@
 import { Card } from "../../components/Card";
 import { Footer } from "../../components/Footer";
 import { Header } from "../../components/Header";
-import { Container } from "./styles";
+import { Container, SectionGrid } from "./styles";
 
 const allClass =[
   {
@@ -24,11 +24,14 @@ export  function Home (){
   return(
     <Container>
       <Header/>
+      <SectionGrid>
+
    { allClass &&
    allClass.map(content =>(
      <Card content={content} />
-   ))
-   }
+     ))
+    }
+    </SectionGrid>
       <Footer/>
     </Container>
   )

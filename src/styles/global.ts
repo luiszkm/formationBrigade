@@ -21,6 +21,8 @@ export default createGlobalStyle`
   img{
     width: 100%;
     max-width: 500px;
+    height: 100%;
+    max-height: 400px;
     margin: 0 auto;
   }
   .sr-only {
