@@ -18,6 +18,11 @@ export default createGlobalStyle`
   -webkit-font-smoothing: antialiased;
   font-family: 'Poppins', sans-serif;
   }
+  img{
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+  }
   .sr-only {
   opacity: 0;
   width: 1px;

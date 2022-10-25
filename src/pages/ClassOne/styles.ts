@@ -7,15 +7,26 @@ export const Container = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+  background: ${({theme})=> theme.COLORS.GRAY_400};
 
+  @media (min-width:800px) {
+    //flex-direction: row;
+
+  }
   >main{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
+    gap: 1.6rem;
     min-height: 80vh;
     width: 100%;
-    //max-width: 1136px;
+    max-width: 1136px;
+    position: relative;
    
-    background: ${({theme})=> theme.COLORS.GRAY_400};
+    >section{
+      //width: initial;
+    }
+  
+    
   }
 `

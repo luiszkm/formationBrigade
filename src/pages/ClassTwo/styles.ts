@@ -17,5 +17,9 @@ export const Container = styled.div`
     //max-width: 1136px;
    
     background: ${({theme})=> theme.COLORS.GRAY_400};
+    >section{
+      width: initial;
+
+    }
   }
 `

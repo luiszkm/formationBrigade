@@ -16,7 +16,6 @@ export const Container = styled.section`
     display: grid;
     gap: 1.6rem;
     grid-template-columns: repeat(1, 1fr);
-
    
 
   }

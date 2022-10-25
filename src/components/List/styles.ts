@@ -3,9 +3,9 @@ import styled from "styled-components";
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   gap: 1.2rem;
-
+  
   @media (min-width: 768px) {
     flex-direction: row;
     //align-items: flex-start;
@@ -18,6 +18,8 @@ export const Container = styled.div`
     align-items: flex-start;
     gap: 1.2rem;
     max-width: 400px;
+    text-align: start;
+
   }
   >img{
     width: 100%;
