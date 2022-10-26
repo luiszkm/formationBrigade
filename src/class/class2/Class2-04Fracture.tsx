@@ -5,7 +5,7 @@ import { SectionItem } from "../../components/SectionItem";
 
 
 
-export function Class2Fracture (){
+export function Class2Fractures (){
 
   return(
     <Section title="Fraturas" >

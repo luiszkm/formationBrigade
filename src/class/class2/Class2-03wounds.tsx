@@ -6,7 +6,7 @@ import { SectionItem } from "../../components/SectionItem";
 
 
 
-export function Class2Wounds() {
+export function Class2Wound() {
 
   return (
     <Section title="Hemorragias e Ferimentos Especiais">
