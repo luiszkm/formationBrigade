@@ -19,12 +19,19 @@ export function SingIn() {
         {<FormLogin >
           <label htmlFor="email">
             Digite seu e-mail
-           <Input />
+           <Input icon={<AiOutlineMail size ={24}/>}
+            id="email"
+            type="text"
+            placeholder="brigada@email.com.br"
+           />
           </label>
 
           <label htmlFor="password">
             Digite sua senha
-            <Input />
+            <Input icon={<AiOutlineUnlock size={24}/>} 
+            id="password"
+            type="password"
+            placeholder="máximo 6 caracteres" />
           </label>
           
           <Link to='/'>
