@@ -17,7 +17,7 @@ export function Header() {
         <nav>
           <ul>
             <Link to='/'><li>Home</li></Link>
-            <Link to='/'><li>Contato</li></Link>
+            <Link to='/contact'><li>Contato</li></Link>
           </ul>
         </nav>
 
