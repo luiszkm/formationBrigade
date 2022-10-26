@@ -1,8 +1,8 @@
 
 import { Class2Intro } from "../../class/class2/class2-01Intro";
 import { Class2Ovace } from "../../class/class2/class2-02Ovace";
-import { Class2Wound } from "../../class/class2/class2-03wounds";
-import { Class2Fractures } from "../../class/class2/class2-04Fracture";
+import { Class2Wound } from "../../class/class2/Class2-03wounds";
+import { Class2Fractures } from "../../class/class2/Class2-04Fracture";
 
 import { Aside } from "../../components/Aside";
 import { Footer } from "../../components/Footer";
