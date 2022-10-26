@@ -1,6 +1,7 @@
 
 import { Class2Intro } from "../../class/class2/class2-01Intro";
-import { Class3Wounds } from "../../class/class2/Class2-03wounds";
+import { Class2Wounds } from "../../class/class2/Class2-03wounds";
+import { Class2Fracture } from "../../class/class2/Class2-04Fracture";
 import { Aside } from "../../components/Aside";
 import { Footer } from "../../components/Footer";
 import { Header } from "../../components/Header";
@@ -18,7 +19,9 @@ export function ClassTwo() {
       <main>
         <Section title="APH Treinamento">
           <Class2Intro />
-          <Class3Wounds />
+          <Class2Wounds />
+          <Class2Fracture />
+          
         </Section>
 
         <Aside />

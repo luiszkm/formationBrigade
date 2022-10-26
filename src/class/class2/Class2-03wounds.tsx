@@ -6,7 +6,7 @@ import { SectionItem } from "../../components/SectionItem";
 
 
 
-export function Class3Wounds() {
+export function Class2Wounds() {
 
   return (
     <Section title="Hemorragias e Ferimentos Especiais">
@@ -126,7 +126,10 @@ export function Class3Wounds() {
           img={"https://imgbrigadeformation.s3.sa-east-1.amazonaws.com/Class2-03Wounds/shock3.png"}
           title="Alterações Cardíacas"
           paragraph="a corrente elétrica provoca alterações na despolarização cardíaca, podendo levar a arritmias, fibrilação e PCR. " />
-
+          <SectionItem withH4
+          title="Conduta"
+          paragraph="Desligue a energia e afaste a vítima da fonte, antes de iniciar o atendimento;
+          Verifique sinais vitais e inicie as manobras de RCP, se necessário."/>
       </Section>
 
     </Section>

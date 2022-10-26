@@ -21,7 +21,7 @@ export function Header() {
           </ul>
         </nav>
 
-        <Link to='login'>
+        <Link to='/login'>
           <GiExitDoor size={24} />
         </Link>
       </header>

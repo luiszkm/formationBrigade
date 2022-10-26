@@ -1,8 +1,8 @@
-import { InputHTMLAttributes } from "react"
+import { InputHTMLAttributes, ReactNode } from "react"
 import { Container } from "./styles"
 
 interface InputProps extends InputHTMLAttributes<HTMLInputElement> {
-  icon?: any
+  icon?: ReactNode
 }
 
 
