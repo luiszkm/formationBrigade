@@ -4,6 +4,7 @@ import { Container, FormLogin } from "./styles";
 import { Link } from "react-router-dom";
 import { Input } from "../../components/InputComponent";
 
+import logo from "../../assets/logo.svg"
 
 
 export function SingIn() {
@@ -13,9 +14,11 @@ export function SingIn() {
 
       <section>
         <div>
+          <img src={logo} alt="" />
           <h2>Formação Brigada</h2>
           <span>faça login e  comece a usar!</span>
         </div>
+
         {<FormLogin >
           <label htmlFor="email">
             Digite seu e-mail

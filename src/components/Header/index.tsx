@@ -4,6 +4,7 @@ import { GiExitDoor } from "react-icons/gi"
 import { Link } from "react-router-dom";
 
 
+import logo from "../../assets/logo.svg"
 
 
 export function Header() {
@@ -12,7 +13,8 @@ export function Header() {
   return (
     <Container>
       <header>
-        <h2>logo</h2>
+        <img src={logo} alt="" />
+        
         <SearchBar />
         <nav>
           <ul>

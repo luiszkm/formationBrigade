@@ -14,6 +14,10 @@ export const Container = styled.div`
     display: flex;
     align-items: center;
     justify-content: space-between;
+    >img{
+      width: 80px;
+      margin: 0;
+    }
     >a{
       color: ${({theme})=> theme.COLORS.WHITE_400};
      }

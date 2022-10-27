@@ -19,6 +19,11 @@ flex-direction: column;
     gap: 6.4rem;
     >div:first-child{
       text-align: center;
+    
+      >img{
+        width: 100%;
+        max-width: 300px;
+      }
     >span{
       color: ${({theme})=> theme.COLORS.GRAY_500};
       font-size: 1.4rem;
