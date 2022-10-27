@@ -1,7 +1,7 @@
-import { ReactNode } from "react";
+import { ButtonHTMLAttributes, ReactNode } from "react";
 import { Container } from "./styles";
 
-interface ButtonProps {
+interface ButtonProps extends ButtonHTMLAttributes <HTMLButtonElement> {
   title: string;
   icon?: any;
   children?: ReactNode
@@ -10,7 +10,7 @@ interface ButtonProps {
 export function Button(props: ButtonProps){
 
   return(
-    <Container>
+    <Container {...props}>
       {props.icon}
       {props.title}
     </Container>
