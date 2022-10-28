@@ -3,7 +3,7 @@ import { createContext, useContext, useState, useEffect } from "react";
 import { api } from "../services/api"
 interface ProvideAuthContext {
   user?: string;
-  signIn?: (props: singInProps) => void;
+  signIn?: any;
   signOut?: any;
 }
 interface singInProps {
