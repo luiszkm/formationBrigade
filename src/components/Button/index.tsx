@@ -1,5 +1,8 @@
-import { ButtonHTMLAttributes, ReactNode } from "react";
+import { ButtonHTMLAttributes, ReactNode ,MouseEvent } from "react";
 import { Container } from "./styles";
+
+
+
 
 interface ButtonProps extends ButtonHTMLAttributes <HTMLButtonElement> {
   title: string;
@@ -7,7 +10,7 @@ interface ButtonProps extends ButtonHTMLAttributes <HTMLButtonElement> {
   children?: ReactNode
 }
 
-export function Button(props: ButtonProps){
+export function Button(props: ButtonProps ){
 
   return(
     <Container {...props}>

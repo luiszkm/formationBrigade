@@ -1,14 +1,16 @@
-import { SearchBar } from "../SearchBar";
-import { Container } from "./styles";
+import { SearchBar } from "../SearchBar"
+import { Container } from "./styles"
 import { GiExitDoor } from "react-icons/gi"
-import { Link } from "react-router-dom";
+import { Link } from "react-router-dom"
 
+import {useAuth} from "../../hooks/auth"
 
 import logo from "../../assets/logo.svg"
 
 
 export function Header() {
 
+  const {signOut} = useAuth()
 
   return (
     <Container>
@@ -23,7 +25,7 @@ export function Header() {
           </ul>
         </nav>
 
-        <Link to='/login'>
+        <Link to='/' onClick={()=>signOut()} >
           <GiExitDoor size={24} />
         </Link>
       </header>

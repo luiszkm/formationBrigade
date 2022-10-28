@@ -15,16 +15,14 @@ import { Container, FormLogin } from "./styles";
 
 
 export function SingIn() {
-  const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
-
+  const [email, setEmail] = useState<string>("");
+  const [password, setPassword] = useState<string>("");
+  
   const {signIn} = useAuth()
   
-  function handleSignIn(e: Event) {
+  function handleSignIn(e: React.MouseEvent<Element, MouseEvent>) {
     e.preventDefault()
-    signIn({ email, password })
-
-
+    signIn({email, password})
   }
 
   return (
@@ -64,7 +62,7 @@ export function SingIn() {
 
           <Link to='/'>
             <Button title={"Entrar na Plataforma"}
-            onClick={()=>(handleSignIn)} />
+            onClick={(e)=>handleSignIn(e)} />
           </Link>
 
         </FormLogin>
