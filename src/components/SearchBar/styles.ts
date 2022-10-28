@@ -6,7 +6,7 @@ export const Container = styled.label`
   width:100%;
   max-width: 46.4rem;
   height: 3.2rem;
-  display: flex;
+  display: none;
   align-items: center;
   padding: 0 1.6rem;
   gap: 8px;
@@ -18,7 +18,9 @@ export const Container = styled.label`
     outline: none;
     width: 100%;
   }
-
+  @media (min-width: 768px) {
+    display: flex;
+  }
 `
 
 

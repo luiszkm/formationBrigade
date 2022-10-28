@@ -15,7 +15,7 @@ export function Header() {
   return (
     <Container>
       <header>
-        <img src={logo} alt="" />
+        <img src={logo} alt=""  id="main"/>
         
         <SearchBar />
         <nav>

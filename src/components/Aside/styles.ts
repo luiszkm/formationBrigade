@@ -5,10 +5,10 @@ export const Container = styled.aside`
   max-width:300px;
   min-height: 400px;
   border-radius: 8px;
-  border: 1px solid ${({theme})=>theme.COLORS.DARK_RED};
+ // border: 1px solid ${({theme})=>theme.COLORS.DARK_RED};
   margin-top: 2.4em;
   background: ${({theme})=> theme.COLORS.WHITE};
-
+  opacity: 0.6;
 
 
 `

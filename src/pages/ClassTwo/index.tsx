@@ -7,7 +7,9 @@ import { Class2Fractures } from "../../class/class2/Class2-04Fracture";
 import { Aside } from "../../components/Aside";
 import { Footer } from "../../components/Footer";
 import { Header } from "../../components/Header";
+import { NavPage } from "../../components/NavPage";
 import { Section } from "../../components/Section";
+import { ToTop } from "../../components/ToTop";
 import { Container } from "./styles";
 
 
@@ -24,12 +26,13 @@ export function ClassTwo() {
           <Class2Ovace />
           <Class2Wound />
           <Class2Fractures />
-          
+          <NavPage />
         </Section>
 
         <Aside />
       </main>
       <Footer />
+      <ToTop />
     </Container>
   )
 }

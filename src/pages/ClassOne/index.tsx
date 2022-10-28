@@ -10,8 +10,10 @@ import { Cover } from "../../components/Cover";
 
 import { Footer } from "../../components/Footer";
 import { Header } from "../../components/Header";
+import { NavPage } from "../../components/NavPage";
 import { Section } from "../../components/Section";
 import { SectionItem } from "../../components/SectionItem";
+import { ToTop } from "../../components/ToTop";
 import { Container } from "./styles";
 
 
@@ -28,10 +30,13 @@ export function ClassOne() {
           <Class1Fire />
           <Class1Extintor />
           <Class1Glp />
+          <NavPage />
         </Section>
         <Aside />
       </main>
       <Footer />
+      <ToTop />
+
     </Container>
   )
 }

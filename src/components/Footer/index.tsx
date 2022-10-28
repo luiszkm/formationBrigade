@@ -8,11 +8,9 @@ export function Footer (){
       <footer>
       <small>
         &copy;
-        copyright
+        copyright-todos os direito reservados
       </small>
-      <small>
-        todos os direito reservados
-      </small>
+   
       <small>
         <a target="_blank" 
         href="https://www.devsoares.com">

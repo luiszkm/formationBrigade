@@ -13,6 +13,9 @@ export default createGlobalStyle`
   :root{
   font-size: 62.5%;
   }
+  html{
+    scroll-behavior: smooth;
+  }
   body{
   font-size: 1.6rem;
   -webkit-font-smoothing: antialiased;

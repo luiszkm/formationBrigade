@@ -8,12 +8,15 @@ export const Container = styled.div`
   width: 100%;
   height:8rem ;
   color: ${({theme})=> theme.COLORS.WHITE_400};
+  padding: 0 1rem;
   >header{
     width: 100%;
     max-width: 1136px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+   
+
     >img{
       width: 80px;
       margin: 0;
