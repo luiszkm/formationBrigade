@@ -15,13 +15,13 @@ interface dataProps {
   token: string
 }
 
-export const AuthContext = createContext({} as ProvideAuthContext)
+export const AuthContext = createContext({} as any)
 
 function AuthProvider({ children }: any) {
 
   const [data, setData] = useState<dataProps>({ user: '', token: '' })
 
-  async function signIn({ email, password }: singInProps) {
+  async function signIn({ email, password }: singInProps) : Promise<void>{
     console.log(email);
 
     try {
@@ -44,7 +44,7 @@ function AuthProvider({ children }: any) {
     }
   }
 
-  function signOut() {
+  function signOut() : void{
     localStorage.removeItem("@fireman:token")
     localStorage.removeItem("@fireman:user")
 
