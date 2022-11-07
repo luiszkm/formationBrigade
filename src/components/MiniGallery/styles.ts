@@ -5,13 +5,13 @@ export const Container = styled.div`
   flex-direction: column;
   gap:  1.6rem;
   max-width: 700px;
+  
 >div{
-  display: grid;
-  grid-template-columns: repeat(1,1fr);
+  display: flex;
+  flex-direction: column;
   gap: 1.6rem;
   @media (min-width: 768px) {
-    grid-template-columns: repeat(2,1fr);
-
+flex-direction: row;
   }
   >img{
     max-width: 300px;
