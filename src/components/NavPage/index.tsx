@@ -6,10 +6,16 @@ import { Container } from "./styles";
 
 export function NavPage(){
 
+  function handleNextPage(){
+    window.scroll(0,0)
+  }
+
+
+
   return(
     <Container>
-      <Link to='/aula'>1</Link>
-      <Link to='/APH'>2</Link>
+      <Link to='/aula' onClick={handleNextPage}>1</Link>
+      <Link to='/APH'  onClick={handleNextPage}>2</Link>
     </Container>
   )
 }
