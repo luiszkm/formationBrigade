@@ -27,6 +27,8 @@ export default createGlobalStyle`
     height: 100%;
     max-height: 400px;
     margin: 0 auto;
+    object-fit: cover;
+    display:'block' ;
   }
   .sr-only {
   opacity: 0;

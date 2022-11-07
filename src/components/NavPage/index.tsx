@@ -10,8 +10,6 @@ export function NavPage(){
     window.scroll(0,0)
   }
 
-
-
   return(
     <Container>
       <Link to='/aula' onClick={handleNextPage}>1</Link>

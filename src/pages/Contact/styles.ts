@@ -9,6 +9,8 @@ display: flex;
 flex-direction: column;
 justify-content: space-between;
 
+
+
 >div:nth-child(2){
   width:100% ;
   height: 30vh;
@@ -18,6 +20,7 @@ justify-content: space-between;
   justify-content: center;
   color: white;
   font-weight:bold;
+
 
   >ul{
     display: flex;

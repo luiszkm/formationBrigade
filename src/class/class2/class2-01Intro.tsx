@@ -47,7 +47,7 @@ export function Class2Intro() {
         <img src="https://imgbrigadeformation.s3.sa-east-1.amazonaws.com/Class2-Intro/procedure1.png" alt="" />
 
         <SectionItem title=""
-        paragraph="As mãos devem ser sobrepostas, dedos entrelaçados e somente uma das mãos em contato com o osso esterno.
+          paragraph="As mãos devem ser sobrepostas, dedos entrelaçados e somente uma das mãos em contato com o osso esterno.
         As compressões fazem com que o sangue circule, substituindo assim o trabalho que seria feito pelo coração."/>
 
         <SectionItem img={"https://imgbrigadeformation.s3.sa-east-1.amazonaws.com/Class2-Intro/procedure2.png"}
@@ -80,21 +80,21 @@ export function Class2Intro() {
           paragraph="O sincronismo será de 02 insuflações 30 massagens cardíacas externas,	a cada 5 ciclos;
           30 X 02	=	05 Ciclos ou 100 a 110 massagens/min." />
 
-          <MiniGallery title="• ADULTO: 30 compressões e 2 insuflações Dois braços">
-            <img src="https://imgbrigadeformation.s3.sa-east-1.amazonaws.com/Class2-Intro/procedure5.png" alt="" />
-          </MiniGallery>
+        <MiniGallery title="• ADULTO: 30 compressões e 2 insuflações Dois braços">
+          <img src="https://imgbrigadeformation.s3.sa-east-1.amazonaws.com/Class2-Intro/procedure5.png" alt="" />
+        </MiniGallery>
 
-          <MiniGallery title="•	CRIANÇAS: 30 compressões e 2 insuflações	Um braço">
-            <img src="https://imgbrigadeformation.s3.sa-east-1.amazonaws.com/Class2-Intro/procedure6.png" alt="" />
-          </MiniGallery>
+        <MiniGallery title="•	CRIANÇAS: 30 compressões e 2 insuflações	Um braço">
+          <img src="https://imgbrigadeformation.s3.sa-east-1.amazonaws.com/Class2-Intro/procedure6.png" alt="" />
+        </MiniGallery>
 
-          <MiniGallery title="•	BEBÊS: 30 compressões e 2 insuflações Dois dedos">
-            <img src="https://imgbrigadeformation.s3.sa-east-1.amazonaws.com/Class2-Intro/procedure7.png" alt="" />
-          </MiniGallery>
+        <MiniGallery title="•	BEBÊS: 30 compressões e 2 insuflações Dois dedos">
+          <img src="https://imgbrigadeformation.s3.sa-east-1.amazonaws.com/Class2-Intro/procedure7.png" alt="" />
+        </MiniGallery>
 
-          <MiniGallery title="Verificação de pulso em bebê sempre tem que ser feito na braquial">
-            <img src="https://imgbrigadeformation.s3.sa-east-1.amazonaws.com/Class2-Intro/procedure8.png" alt="" />
-          </MiniGallery>
+        <MiniGallery title="Verificação de pulso em bebê sempre tem que ser feito na braquial">
+          <img src="https://imgbrigadeformation.s3.sa-east-1.amazonaws.com/Class2-Intro/procedure8.png" alt="" />
+        </MiniGallery>
 
       </Section>
 
